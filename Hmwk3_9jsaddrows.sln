@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hmwk3_9jsaddrows.Web", "Hmwk3_9jsaddrows.Web\Hmwk3_9jsaddrows.Web.csproj", "{E55A8118-438F-411E-8C16-A230B8DCC4DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hmwk3_9jsaddrows.Data", "Hmwk3_9jsaddrows.Data\Hmwk3_9jsaddrows.Data.csproj", "{03A1D93D-431C-4E8E-82A3-0CEBE3CDAD5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E55A8118-438F-411E-8C16-A230B8DCC4DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E55A8118-438F-411E-8C16-A230B8DCC4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E55A8118-438F-411E-8C16-A230B8DCC4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E55A8118-438F-411E-8C16-A230B8DCC4DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A1D93D-431C-4E8E-82A3-0CEBE3CDAD5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A1D93D-431C-4E8E-82A3-0CEBE3CDAD5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A1D93D-431C-4E8E-82A3-0CEBE3CDAD5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A1D93D-431C-4E8E-82A3-0CEBE3CDAD5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8F0D017-BED4-4B3F-9129-FB9DCF727D81}
+	EndGlobalSection
+EndGlobal

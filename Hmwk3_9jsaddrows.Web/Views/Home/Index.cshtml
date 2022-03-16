@@ -1,0 +1,38 @@
+﻿@model IndexViewModel
+
+@if (!String.IsNullOrEmpty(Model.Message))
+{
+    <div class="alert alert-success alert-dismissible show" role="alert">
+        <span>@Model.Message</span>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+
+<div class="container">
+    <main role="main" class="pb-3">
+        <div class="row">
+
+            <div class="col-md-12">
+                <a href="/home/addpeople" class="btn btn-success">Add People</a>
+                <table class="table table-hover table-bordered">
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Age</th>
+                    </tr>
+                    @foreach (var p in Model.People)
+                    {
+                        <tr>
+                            <th>@p.FirstName</th>
+                            <th>@p.LastName</th>
+                            <th>@p.Age</th>
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+
+    </main>
+</div>
